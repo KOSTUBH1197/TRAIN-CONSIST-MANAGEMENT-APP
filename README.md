@@ -7,6 +7,7 @@ Console-based Core Java application for learning data structures through railway
 - `UC1`: Initialize train and display consist summary
 - `UC2`: Add passenger bogies to train using `ArrayList` operations
 - `UC3`: Track unique bogie IDs using `HashSet`
+- `UC4`: Maintain ordered train consist using `LinkedList`
 
 ## Project Structure
 
@@ -14,6 +15,7 @@ Console-based Core Java application for learning data structures through railway
 - `src/com/trainconsist/usecase1`: UC1 implementation
 - `src/com/trainconsist/usecase2`: UC2 implementation
 - `src/com/trainconsist/usecase3`: UC3 implementation
+- `src/com/trainconsist/usecase4`: UC4 implementation
 
 ## Compile
 
@@ -37,4 +39,10 @@ java -cp out com.trainconsist.usecase2.UseCase2AddPassengerBogiesToTrain
 
 ```powershell
 java -cp out com.trainconsist.usecase3.UseCase3TrackUniqueBogieIds
+```
+
+## Run UC4
+
+```powershell
+java -cp out com.trainconsist.usecase4.UseCase4MaintainOrderedBogieIds
 ```
