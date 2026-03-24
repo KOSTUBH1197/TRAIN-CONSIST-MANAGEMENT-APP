@@ -15,6 +15,18 @@ public class TrainConsist {
         this.bogies = new ArrayList<>();
     }
 
+    public void addBogie(String bogieName) {
+        bogies.add(bogieName);
+    }
+
+    public boolean removeBogie(String bogieName) {
+        return bogies.remove(bogieName);
+    }
+
+    public boolean hasBogie(String bogieName) {
+        return bogies.contains(bogieName);
+    }
+
     public int getBogieCount() {
         return bogies.size();
     }
