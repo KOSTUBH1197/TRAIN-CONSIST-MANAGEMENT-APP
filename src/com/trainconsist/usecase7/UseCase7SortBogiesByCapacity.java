@@ -15,6 +15,14 @@ import java.util.List;
  */
 public class UseCase7SortBogiesByCapacity {
 
+    public static List<Bogie> createPassengerBogies() {
+        List<Bogie> bogies = new ArrayList<>();
+        bogies.add(new Bogie("Sleeper", 72));
+        bogies.add(new Bogie("AC Chair", 56));
+        bogies.add(new Bogie("First Class", 24));
+        return bogies;
+    }
+
     public static void main(String[] args) {
         System.out.println("======================================");
         System.out.println("=== Train Consist Management App ===");
@@ -22,10 +30,7 @@ public class UseCase7SortBogiesByCapacity {
         System.out.println("Use Case 7: Sort Bogies by Capacity");
         System.out.println();
 
-        List<Bogie> bogies = new ArrayList<>();
-        bogies.add(new Bogie("Sleeper", 72));
-        bogies.add(new Bogie("AC Chair", 56));
-        bogies.add(new Bogie("First Class", 24));
+        List<Bogie> bogies = createPassengerBogies();
 
         System.out.println("Initial bogie list (unsorted):");
         bogies.forEach(b -> System.out.println("  " + b));
