@@ -12,6 +12,7 @@ Console-based Core Java application for learning data structures through railway
 - `UC6`: Map bogie to capacity using `HashMap`
 - `UC15`: Safe cargo assignment using `try-catch-finally`
 - `UC16`: Sort passenger bogie capacities using bubble sort
+- `UC17`: Sort bogie names alphabetically using `Arrays.sort()`
 
 ## Project Structure
 
@@ -24,6 +25,7 @@ Console-based Core Java application for learning data structures through railway
 - `src/com/trainconsist/usecase6`: UC6 implementation
 - `src/com/trainconsist/usecase15`: UC15 implementation
 - `src/com/trainconsist/usecase16`: UC16 implementation
+- `src/com/trainconsist/usecase17`: UC17 implementation
 
 ## Compile
 
@@ -77,4 +79,10 @@ java -cp out com.trainconsist.usecase15.UseCase15SafeCargoAssignmentUsingTryCatc
 
 ```powershell
 java -cp out com.trainconsist.usecase16.UseCase16SortPassengerBogieCapacitiesUsingBubbleSort
+```
+
+## Run UC17
+
+```powershell
+java -cp out com.trainconsist.usecase17.UseCase17SortBogieNamesUsingArraysSort
 ```
