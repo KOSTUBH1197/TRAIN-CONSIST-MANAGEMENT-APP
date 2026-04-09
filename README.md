@@ -15,6 +15,7 @@ Console-based Core Java application for learning data structures through railway
 - `UC17`: Sort bogie names alphabetically using `Arrays.sort()`
 - `UC18`: Search for a bogie ID using linear search
 - `UC19`: Search for a bogie ID using binary search
+- `UC20`: Prevent search on an empty train using `IllegalStateException`
 
 ## Project Structure
 
@@ -30,6 +31,7 @@ Console-based Core Java application for learning data structures through railway
 - `src/com/trainconsist/usecase17`: UC17 implementation
 - `src/com/trainconsist/usecase18`: UC18 implementation
 - `src/com/trainconsist/usecase19`: UC19 implementation
+- `src/com/trainconsist/usecase20`: UC20 implementation
 
 ## Compile
 
@@ -101,4 +103,10 @@ java -cp out com.trainconsist.usecase18.UseCase18LinearSearchForBogieId
 
 ```powershell
 java -cp out com.trainconsist.usecase19.UseCase19BinarySearchForBogieId
+```
+
+## Run UC20
+
+```powershell
+java -cp out com.trainconsist.usecase20.UseCase20ExceptionHandlingDuringSearchOperations
 ```
