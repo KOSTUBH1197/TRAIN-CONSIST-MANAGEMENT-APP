@@ -10,6 +10,7 @@ Console-based Core Java application for learning data structures through railway
 - `UC4`: Maintain ordered train consist using `LinkedList`
 - `UC5`: Preserve insertion order of bogies using `LinkedHashSet`
 - `UC6`: Map bogie to capacity using `HashMap`
+- `UC15`: Safe cargo assignment using `try-catch-finally`
 
 ## Project Structure
 
@@ -20,6 +21,7 @@ Console-based Core Java application for learning data structures through railway
 - `src/com/trainconsist/usecase4`: UC4 implementation
 - `src/com/trainconsist/usecase5`: UC5 implementation
 - `src/com/trainconsist/usecase6`: UC6 implementation
+- `src/com/trainconsist/usecase15`: UC15 implementation
 
 ## Compile
 
@@ -61,4 +63,10 @@ java -cp out com.trainconsist.usecase5.UseCase5PreserveInsertionOrderOfBogies
 
 ```powershell
 java -cp out com.trainconsist.usecase6.UseCase6MapBogieToCapacity
+```
+
+## Run UC15
+
+```powershell
+java -cp out com.trainconsist.usecase15.UseCase15SafeCargoAssignmentUsingTryCatchFinally
 ```
