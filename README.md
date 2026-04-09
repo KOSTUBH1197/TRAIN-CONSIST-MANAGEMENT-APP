@@ -14,6 +14,7 @@ Console-based Core Java application for learning data structures through railway
 - `UC16`: Sort passenger bogie capacities using bubble sort
 - `UC17`: Sort bogie names alphabetically using `Arrays.sort()`
 - `UC18`: Search for a bogie ID using linear search
+- `UC19`: Search for a bogie ID using binary search
 
 ## Project Structure
 
@@ -28,6 +29,7 @@ Console-based Core Java application for learning data structures through railway
 - `src/com/trainconsist/usecase16`: UC16 implementation
 - `src/com/trainconsist/usecase17`: UC17 implementation
 - `src/com/trainconsist/usecase18`: UC18 implementation
+- `src/com/trainconsist/usecase19`: UC19 implementation
 
 ## Compile
 
@@ -93,4 +95,10 @@ java -cp out com.trainconsist.usecase17.UseCase17SortBogieNamesUsingArraysSort
 
 ```powershell
 java -cp out com.trainconsist.usecase18.UseCase18LinearSearchForBogieId
+```
+
+## Run UC19
+
+```powershell
+java -cp out com.trainconsist.usecase19.UseCase19BinarySearchForBogieId
 ```
